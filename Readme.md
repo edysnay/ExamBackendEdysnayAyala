@@ -14,17 +14,19 @@ Spring Boot - 2.6.3
 Steps to Setup
 1. Clone the application
 
-git clone https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git
+git clone https://github.com/edysnay/ExamBackendEdysnayAyala.git
+
 2. Create Mysql database
 
 create database gateways_app
+
 3. Change mysql username and password as per your installation
 
 open src/main/resources/application.properties
 
 server.port= 8080
 
-spring.datasource.url=jdbc:mysql://localhost:3306/gateways_app?createDatabaseIfNotExist=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+spring.datasource.url=jdbc:mysql://localhost:3306/gateways_app?createDatabaseIfNotExist=true
 spring.datasource.username=root
 spring.datasource.password=chile2022*
 spring.datasource.initialization-mode=always
