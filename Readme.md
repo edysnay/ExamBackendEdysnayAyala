@@ -27,6 +27,7 @@ open src/main/resources/application.properties
 server.port= 8080
 
 spring.datasource.url=jdbc:mysql://localhost:3306/gateways_app?createDatabaseIfNotExist=true
+
 spring.datasource.username=root
 spring.datasource.password=chile2022*
 spring.datasource.initialization-mode=always
