@@ -62,3 +62,6 @@ POST /api/v1/gateways/{gatewayId}/device
 DELETE /api/v1/gateways/{gatewayId}/device/{deviceId}
 
 You can test them using postman or any other rest client.
+
+The documentation generated for the api can be accessed from here  -> http://localhost:8080/api/v1/swagger-ui.html.
+
