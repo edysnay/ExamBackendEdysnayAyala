@@ -2,6 +2,7 @@ package com.chattigo.spring.api.dtos;
 
 import lombok.*;
 
+import java.io.Serializable;
 import java.util.List;
 
 @Setter
@@ -9,7 +10,7 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class GatewayDTO {
+public class GatewayDTO implements Serializable {
 
   private String serialNumber;
   private String name;
